@@ -29,7 +29,7 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.19.2",
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.9",
     "music-md": "^1.0.1",
