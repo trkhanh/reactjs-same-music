@@ -1,0 +1,106 @@
+
+.container {
+
+}
+
+.tracksContainer {
+    /* position: fixed; */
+    /* bottom: 0px; */
+    /* width: 100%; */
+    /* left: 5em; */
+    /* right: 5em; */
+    height: 590px;
+    overflow-y: scroll;
+}
+
+.tracksContainer::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+.tracksContainer::-webkit-scrollbar-track {
+    border:solid 1px #e3e3e3;
+    border-radius: 6px;
+}
+ 
+.tracksContainer::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 6px;
+}
+
+.trackContainer {
+    border-bottom: solid #cccccc 1px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    transition: all .3s;
+    padding-left: 10px;
+    cursor:pointer;
+        margin-right: 32px;
+}
+
+.trackContainer:hover {
+    transition: all .3s;
+    background: #F7F7F7;
+}
+
+.tkImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    margin-right: 10px;
+}
+
+.tkImgAlt {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.tkDetailsContainer {
+display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+        font-size: 14px;
+}
+
+.total {
+    margin-top: 36px;
+    font-size: 14px;
+    color: #6d6d6d;
+}
+
+.tkTrackName {
+width: 30%;
+}
+
+.tkAlbumName {
+width: 30%;
+}
+
+.tkArtistName {
+width: 30%;
+}
+
+.tracksHeader {
+    display: flex;
+    margin-left: 59px;
+    margin-right: 32px;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 7px;
+}
+
+.tracksHeaderItem {
+        width: 30%;
+}

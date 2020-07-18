@@ -1,0 +1,66 @@
+
+.container {
+margin-right: 42px;
+}
+.topSectionContainer {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.npImgContainer {
+    width: 57px;
+    height: 55px;
+    margin-right: 11px;
+}
+
+.npImg {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    margin-right: 10px;
+}
+
+.npImgAlt {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 4px;
+    border: solid 1px #cccccc;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.npDetailsContainer {
+width: 50%;
+}
+
+.npTitle {
+font-size: 13px;
+}
+
+.npArtist {
+    font-size: 14px;
+    color: #363636;
+}
+
+.npAlbum {
+    font-size: 11px;
+    color: #8b8b8b;
+}
+
+.npControllerContainer {
+width: 50%;
+}
+
+.controlButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.controlButton {
+    cursor: pointer;
+    height: 14px;
+    margin-left: 15px;
+}
